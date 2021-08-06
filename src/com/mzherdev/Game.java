@@ -13,6 +13,7 @@ import java.util.List;
  */
 public class Game extends javafx.scene.canvas.Canvas {
 
+    int unused = 12;
     private Cell[] cells;
     boolean win = false;
     boolean lose = false;
